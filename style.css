@@ -70,3 +70,16 @@ button {
 
      margin-top: 1.8rem;
 }
+
+/* desktop */
+
+@media (min-width: 760px) {
+    main { 
+            flex-direction: row;      
+            max-width: 100%;  
+        }
+    main > div {
+        flex: 1;
+        max-width: 42.5rem;
+    }
+}
