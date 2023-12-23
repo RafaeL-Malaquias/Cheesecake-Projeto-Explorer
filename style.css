@@ -73,13 +73,40 @@ button {
 
 /* desktop */
 
-@media (min-width: 760px) {
+@media (min-width: 770px) {
     main { 
             flex-direction: row;      
-            max-width: 100%;  
+            max-width: fit-content; 
+            gap: 16rem;
+
+            padding: 9rem 6rem;
         }
-    main > div {
-        flex: 1;
-        max-width: 42.5rem;
-    }
+        .receita {
+            max-width: 43.5rem;
+        }
+        .Ingredientes{
+            max-width: 52.5rem;
+        }
+
+        h1, h2 {
+            font-size: 4rem;
+            line-height: 5rem;
+        }
+        p, li , strong {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+        ul, ol {
+            margin-top: 1rem;
+        }
+        li {
+            margin-bottom: 2px;
+        }
+
+        button {
+            font-size: 1.7rem;
+            line-height: 2.4rem;
+            padding: 1rem 2rem;
+        }
 }
+
